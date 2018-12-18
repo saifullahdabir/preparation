@@ -1,1 +1,34 @@
-sfswdfsd
+Vulnerabilities finding, exploiting and fixing
+==============================================
+
+1. CSRF Fixes
+
+https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet 
+
+Primary Defense Techniques
+a) Token based mitigation
+stateful (synchronizer pattern)
+stateless (encrypted/hash based pattern)
+  -synchroniser token pattern
+  -existing synchroniser implementation
+  -disclosure of token in URL (POST as GET**)
+  -Encryption based token pattern
+  -HMAC based token pattern
+  
+b) Auto CSRF mitigation technique - Write wrappers around default form tags/ajax calls, Write a hook in your organizational web rendering frameworks, Get the tokens automatically added on the client side when the page is being rendered in user’s browser, with help of a client side script.
+c) Login CSRF
+
+Defense in Depth Techniques
+a) Verifying origin with standard headers
+b) Double submit cookie
+c) Samesite Cookie
+d) Use of Custom request headers
+e) User interaction based CSRF defense - reauthentoication, OTP, CAPTCHA
+
+Q) JavaScript hijacking attacks ??
+
+
+
+
+
+
