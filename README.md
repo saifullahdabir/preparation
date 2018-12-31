@@ -1,2 +1,2 @@
 # preparation
-web app, web api, thick lcient, mobile pentest practical.
+web app, web api, thick client, mobile pentest practical.
