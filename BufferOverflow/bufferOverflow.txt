@@ -1,1 +1,14 @@
-test
+Exploit writing tutorial part 1 : Stack Based Overflows
+=======================================================
+
+Verify the bug
+Verify the bug – and see if it could be interesting
+Before we proceed – some theory
+Process Memory
+The Stack
+The debugger
+Determining the buffer size to write exactly into EIP
+Find memory space to host the shellcode
+Jump to the shellcode in a reliable way
+Get shellcode and finalize the exploit
+What if you want to do something else than launching calc ?
