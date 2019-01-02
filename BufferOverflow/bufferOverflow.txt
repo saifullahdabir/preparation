@@ -1,11 +1,11 @@
 Normal Buffer Overflow PoC
 ==========================
 
-https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/
-http://www.shogunlab.com/blog/2017/08/19/zdzg-windows-exploit-1.html
-https://www.redscan.com/news/windows-buffer-overflow-attacks-pt-1/
-http://www.fuzzysecurity.com/tutorials/expDev/2.html
+all: https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stack-based-overflows/
 
+win7 BO:  https://www.redscan.com/news/windows-buffer-overflow-attacks-pt-1/
+winXP BO: http://www.fuzzysecurity.com/tutorials/expDev/2.html
+winXP BO:http://www.shogunlab.com/blog/2017/08/19/zdzg-windows-exploit-1.html
 
 
 Exploit writing tutorial part 1 : Stack Based Overflows
